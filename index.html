@@ -12,32 +12,40 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 
-
-    <div class=" mt-5" data-bg-image="back.jpg">
-        <div class="container mt-5">
-            <form class="find-location d-flex justify-content-arround bg-dark bg-opacity-75 rounded-pill ">
-                <input type="text" id="Input_ID"
-                    class="hero form-control rounded-pill border border-0 bg-dark bg-opacity-10 w-100 z- px-5 my-1 ms-1 text-light"
-                    placeholder="Find your weather...">
-                <button class="butn px-4 m-1" type="button" onclick="btn()">Find</button>
-            </form>
-        </div>
-    </div>
-    <div class="img position-absolute top-0 " >
-        <img src="d79780b603d779981f4ed41ad14740b1.jpg" class=" w-100" alt="">
-        <div class="footer">
-            <div class="footer-up"></div>
-            <div class="footer-down d-flex justify-content-center align-items-center">
-                <p class="fw-normal text-light">Copyright 2023 by DevM. All Rights Reserved</p>
+    <div class="d-flex justify-content-center">
+        <div class=" mt-5" data-bg-image="back.jpg">
+            <div class="container mt-5">
+                <form class="find-location d-flex justify-content-arround bg-dark bg-opacity-75 rounded-pill ">
+                    <input type="text" id="Input_ID"
+                        class="hero form-control rounded-pill border border-0 bg-dark bg-opacity-10 w-100 z- px-5 my-1 ms-1 text-light"
+                        placeholder="Find your weather...">
+                    <button class="butn px-4 m-1" type="button" onclick="btn()">Find</button>
+                </form>
             </div>
         </div>
-        <!-- <div style="background-color: aqua;" class="animation mt-5 position-absolute end-0">
+        <div class="img position-absolute top-0 d-flex justify-content-center">
+            <div>
+                <img src="beyond-the-clouds-chocoshi3-digital-2022-v0-rbzgyapm7a9a1.jpg" class="w-100 rounded-top" alt="">
+
+                <!-- <div style="background-color: aqua;" class="animation mt-5 position-absolute end-0">
 
         </div> -->
+        <div class="footer mt-auto">
+        <div class="footer-up"></div>
+        <div class="footer-down d-flex justify-content-center align-items-center rounded-bottom">
+            <p class="fw-normal text-light">Copyright 2023 by DevM. All Rights Reserved</p>
+        </div>
     </div>
+            </div>
+            
+        </div>
+    </div>
+
+
 
     <div class="">
         <div class="d-flex flex-column align-items-center mt-5">
@@ -50,12 +58,15 @@
                     <h1 class="display-5 fs-4 fw-normal text-light" id="fahrenheit"></h1>
                 </div>
             </div>
-            
-                <h1 class="display-5 text-light" id="descr"></h1>
-                <img width="100px" id="icon" src="" alt="">
-            
+
+            <h1 class="display-5 text-light" id="descr"></h1>
+            <img width="100px" id="icon" src="" alt="">
+
         </div>
+
     </div>
+
+    
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
